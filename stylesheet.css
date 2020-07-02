@@ -73,12 +73,70 @@ header {
   display: none!important;
   margin-right: 5px;
 }
+.container-top {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.top-wrapper {
+  padding: 180px 0 200px 0;
+  background-size: cover;
+  color: white;
+  text-align: right;
+  background-image: url('dog-img.jpg');
+  font-size: "Montserrat";
+}
+
+.top-wrapper h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 2px;
+}
+
+.btntop-wrapper {
+  margin: 50px 0;
+  font-size: 32px;
+}
+
+
+.iphone {
+  background-color: black;
+  margin-right: 10px;
+}
+
+.google {
+  border: 1px solid white;
+}
+
+.btntop {
+  padding: 12px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btntop:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+.fab {
+  margin-right: 5px;
+}
+.gambar {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+}
 
 .pricing{
-  padding : 50px 30px;
-  margin-top: 150px;
-  margin bottom: 20px;
-
+  padding top: 50px;
+  margin-top: 0px;
+  margin bottom: 90px;
 }
 li {
   list-style: none;
@@ -218,4 +276,5 @@ footer {
 .footer-copyright {
   font-size: 16px;
   font-weight: bold;
+  line-height: 1.5;
 }
