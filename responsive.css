@@ -12,6 +12,11 @@
     padding-left: auto;
     padding-right: auto;
   }
+  .container-top {
+    width: 75%;
+    padding-left: auto;
+    padding-right: auto;
+  }
 }
 
 /* Untuk Smartphone */
@@ -55,6 +60,17 @@
   }
 
   .btn {
+    margin-bottom: 5px;
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 3px;
+  }
+  .container-top {
+    width: 75%;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .btntop-wrapper{
     margin-bottom: 5px;
     padding: 8px 16px;
     font-size: 20px;
