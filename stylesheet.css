@@ -1,0 +1,281 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #ff4c68;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Ketik code Anda dibawah */
+.fas {
+  color: white;
+  float: right;
+  font-size: 20px;
+  padding: 21px 0;
+  display: none!important;
+  margin-right: 5px;
+}
+.container-top {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.top-wrapper {
+  padding: 180px 0 200px 0;
+  background-size: cover;
+  color: white;
+  text-align: right;
+  background-image: url('dog-img1.jpg');
+  font-size: "Montserrat";
+}
+
+.top-wrapper h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 2px;
+}
+
+.btntop-wrapper {
+  margin: 50px 0;
+  font-size: 32px;
+}
+
+
+.iphone {
+  background-color: black;
+  margin-right: 10px;
+}
+
+.google {
+  border: 1px solid white;
+}
+
+.btntop {
+  padding: 12px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btntop:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+.fab {
+  margin-right: 5px;
+}
+.gambar {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+}
+
+.pricing{
+  padding top: 50px;
+  margin-top: 0px;
+  margin bottom: 90px;
+  margin-left: 20px;
+}
+li {
+  list-style: none;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.header-pricing{
+  text-align: left;
+  line-height: 0.5;
+  font-family:Montserrat;
+  font-weight: bold;
+
+}
+.header-pricing h1 {
+  font-size: 35px;
+  font-weight:bold;
+  line-height: 1.5;
+}
+
+.header-pricing p{
+  font-size: 20px;
+  line-height: 1.0;
+}
+
+.pt{
+  width: cover;
+  margin-top: 100px;
+  margin-bottom: 20px;
+
+
+}
+.box{
+  width: 25%;
+  font-family: Montserrat;
+  background: #FFFFFF;
+  color: black;
+  float: left;
+  margin: 10px;
+  line-height: normal;
+}
+.header-box{
+  margin: 0px;
+  text-align: center;
+  padding:  20px 30px;
+  font-size: 30px;
+}
+.cash{
+  padding: 5px;
+  text-align: center;
+  font-size: 50px;
+}
+li{
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 70px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #696969;
+}
+
+.button:hover {background-color: #2f4f4f}
+
+.button:active {
+  background-color: #2f4f4f;
+  box-shadow: 0 5px #ffffff;
+  transform: translateY(4px);
+}
+.message-wrapper {
+  background-color: #ff4c68;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 100px;
+  margin-top: 400px;
+}
+
+.message-body {
+  font-size: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  transition: 1s;
+}
+
+.btn-apple {
+  background-color: #343a40;
+  border: 1px solid #343a40;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.btn-apple:hover {
+  background-color: #000000;
+}
+
+.btn-android {
+  background-color: #ff4c68;
+  color: #343a40;
+  border: 1px solid #f8f9fa;
+}
+
+.btn-android:hover {
+  background-color: #f8f9fa;
+  color: #23272b;
+}
+
+footer {
+  text-align: center;
+  padding-top: 15px;
+  color: #343a40;
+}
+
+.footer-copyright {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
